@@ -50,6 +50,33 @@ a:hover{
 #check{
     display: none;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+.title{
+    font-size: 70px;
+}
+.p-header{
+    font-size: 20px;
+}
+
+.about-me{
+    height: 100vh;
+    background:#1b221c ;
+}
+.skills{
+    height: 100vh;
+}
+.project{
+    height: 100vh;
+    background-color: #1b221c;
+}
+/* Media  */
 @media (max-width:952px) {
     label.logo{
         font-size: 25px;
@@ -62,6 +89,9 @@ a:hover{
 @media (max-width:858px) {
     .check-btn{
         display: block;
+    }
+    nav{
+        position: fixed;
     }
     ul{
         position: fixed;
@@ -87,5 +117,8 @@ a:hover{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    .title{
+        font-size: 35px;
     }
 }
