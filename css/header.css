@@ -39,6 +39,9 @@ nav ul li a{
 a:hover{
     border: 1px solid #f6fed8;
 }
+header{
+    height: 100vh;
+}
 .check-btn{
     font-size: 30px;
     color: #f6fed8;
@@ -65,10 +68,6 @@ a:hover{
     font-size: 20px;
 }
 
-.about-me{
-    height: 100vh;
-    background:#1b221c ;
-}
 .skills{
     height: 100vh;
 }
@@ -76,6 +75,28 @@ a:hover{
     height: 100vh;
     background-color: #1b221c;
 }
+/* About me */
+.about-me{
+    display: flex;
+    justify-content: end;
+    height: 100vh;
+    background:#1b221c ;
+}
+.h2-about{
+    color: #f6fed8;
+    font-size: 40px;
+    margin-top: 150px;
+    width: 800px;
+}
+.img-about{
+    /* height: 450px;
+    width: 750px; */
+    position: absolute;
+    left: 70px;
+    margin: 100px;
+}
+
+
 /* Media  */
 @media (max-width:952px) {
     label.logo{
