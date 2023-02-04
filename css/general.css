@@ -1,0 +1,13 @@
+/* Regla Universal */
+*{
+    box-sizing: border-box;
+}
+/* Margenes */
+body,
+h1,
+h2,
+h3,
+h4,
+p,header{
+    margin: 0;
+}
