@@ -159,3 +159,24 @@
     box-shadow:  -10px -10px 21px #273b2d,10px 10px 21px #4d7559;
     width: 250px;
     margin-top: 100px; */
+/* MEDIA */
+@media (max-width:952px){
+    .content-about{
+      margin-left: 0;
+    }
+    .title{
+      font-size: 35px;
+    }
+    .img-about{
+        display: none;
+    }
+    .text,p{
+      font-size: 13px
+  }
+  .txt-about{
+    width: 300px;
+  }
+  .buttonDownload{
+    width: 250px;
+  }
+}

@@ -165,10 +165,11 @@ textarea{
 /* MEDIA */
 @media (max-width:991px) {
     .contact{
-        padding: 50px;
+        padding: 40px;
     }
     .containerCnt{
         flex-direction: column;
+        width: 100%;
     }
     .containerCnt .contactInfo,
     .containerCnt .contactForm{
@@ -177,7 +178,7 @@ textarea{
     .containerCnt .contactForm{
         padding: 50px 30px;
     }
-    .text,p{
-        font-size: 15px
+    .containerCnt .contactForm h2{
+        font-size: 20px;
     }
 }

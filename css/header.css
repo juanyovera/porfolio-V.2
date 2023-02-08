@@ -114,10 +114,4 @@ header{
     #check:checked ~ ul{
         left: 0;
     }
-    .title{
-        font-size: 35px;
-    }
-    .img-about{
-        display: none;
-    }
 }
