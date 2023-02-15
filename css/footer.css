@@ -5,7 +5,7 @@ footer{
     max-width: 720px;
     display: grid;
     margin: auto;
-    border-radius: .25rem;
+    /* border-radius: .25rem; */
     padding: 40px;
     color: #f6fed8;
     background-color: #3a5843;
@@ -14,6 +14,8 @@ footer{
 #contact label{
     margin-top: .5rem;
     overflow: hidden;
+    font-size: 13px;
+    font-family: 'Slakey', cursive;
 }
 #contact :is(
     input, 
@@ -34,12 +36,10 @@ footer{
     width: 30%;
     border: 1px solid #3a5843;
     color: #f6fed8;
+    font-family: 'Slakey', cursive;
 }
-#contact .validation{
-    display: none;
-}
-#contact :focus + .validation{
-    display: block;
+.title-contact{
+    font-weight: 600;
 }
 /* Validation */
 #contact :not(button):valid{
@@ -54,6 +54,7 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     padding: .5rem;
+    background-color: #3a5843;
 }
 .social a{
     position: relative;
@@ -63,7 +64,7 @@ footer{
     border-radius: .25rem;
     background-color: #f6fed8;
     background-position: center;
-    background-size: 35px;
+       background-size: 35px;
     background-repeat: no-repeat;
     filter: grayscale(90%) opacity(.8);
 }
@@ -72,13 +73,21 @@ footer{
     background-size: 3rem;
     filter: drop-shadow(0 .5rem .5rem #333);
 }
-.github{
-    background-image: url(../icon/github.svg);
-}
+
 .linkedin{
     background-image: url(../icon/linkedinn.svg);
 }
 .whatsapp{
-    background-image: url(../icon/icons8-whatsapp-480.svg);
+    background-image: url(../icon/whatsapp.svg);
 }
 /*MEDIA */
+@media (width:320px){
+    #contact{
+        padding: 20px;
+    }
+    .social a{
+        height: 60px;
+        width: 60px;
+    }
+
+}

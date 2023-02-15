@@ -20,7 +20,8 @@
 button {
   border: none;
   background-color: #3a5843;
-  color: #f6fed8;
+  color: #eff8d1;
+  font-family: 'Slakey', cursive !important;
   font-size: 17px;
   margin-top: 20px;
   font-weight: 500;
@@ -55,11 +56,13 @@ button:active {
     text-align: center;
 }
 .title-skill{
-    margin-top:25px ; 
     font-size: 40px;
 }
+
 .h2-skill{
-    margin-top: 40px;
+  font-family: 'Slakey', cursive;
+  color: #3a5843;
+  font-size:25px;
 }
 .content-card{
     display: flex;
@@ -75,6 +78,11 @@ button:active {
     margin: 10px;
     padding: 10px;
 }
+.card-skill:hover{
+  -webkit-box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+-moz-box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+}
 .img-skill{
     width: 40px;
     height: 40px;
@@ -86,13 +94,15 @@ button:active {
     text-align:center;
     align-items: center;
 }
+/* Porject */
+.project{
+  height: 100vh;
+  background-color: #1b221c;
+}
 /* MEDIA */
 @media (max-width:952px){
     .content-about{
       margin-left: 0;
-    }
-    .title{
-      font-size: 35px;
     }
     .img-about{
         display: none;
@@ -106,9 +116,7 @@ button:active {
   .skill{
     width: 100%;
   }
-  .txt-about{
-    width: 300px;
-  }
+
   .buttonDownload{
     width: 250px;
   }
@@ -120,7 +128,7 @@ button:active {
     font-size: 32px;
   }
   .h2-skill{
-    font-size: 13px;
+    font-size: 17px;
   }
   .img-skill{
     width: 20px;
@@ -131,5 +139,8 @@ button:active {
   }
   .content-about{
     width: 100%;
+  }
+  .h2-skill{
+    margin: 0 !important;
   }
 }
