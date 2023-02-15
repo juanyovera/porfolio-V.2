@@ -1,6 +1,6 @@
 /* About me */
 .about-me{
-    height: 100vh;
+    height: 100vh; 
     background:#1b221c ;
 }
 
@@ -9,9 +9,7 @@
     right: 60px;
     margin: 100px;
 }
-.txt-about{
-    color: #fefefe;
-}
+
 .content-about{
     display: flex;
     flex-direction: column;
@@ -22,7 +20,7 @@
 button {
   border: none;
   background-color: #3a5843;
-  color: #fefefe;
+  color: #f6fed8;
   font-size: 17px;
   margin-top: 20px;
   font-weight: 500;
@@ -49,6 +47,7 @@ button:active {
     height: 100vh;
     justify-content: center;
     display: flex;
+    background-color: #eff8d1;
 }
 .skill{
     justify-content: center;
@@ -86,7 +85,6 @@ button:active {
     display: flex;
     text-align:center;
     align-items: center;
-    margin-left: 5px;
 }
 /* MEDIA */
 @media (max-width:952px){
@@ -129,6 +127,9 @@ button:active {
     height: 20px;
   }
   .content-card{
+    width: 100%;
+  }
+  .content-about{
     width: 100%;
   }
 }

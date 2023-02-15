@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
 }
-/* Margenes */
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Martel:wght@200&display=swap');
 body,
 h1,
 h2,
@@ -10,4 +10,8 @@ h3,
 h4,
 p,header{
     margin: 0;
+    font-family:'Armata' ;
+}
+p{
+    color: #f6fed8;
 }

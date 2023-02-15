@@ -5,15 +5,14 @@
     list-style: none;
     box-sizing: border-box;
 }
-body{
-    background: #f6fed8;
-}
 nav{
     background: #3a5843;
 }
 header{
     height: 100vh;
+    background-color: #eff8d1;
 }
+/* NAVBAR */
 .navbar-toggler{
     border: none !important;
     border-radius: 0 !important;
@@ -30,8 +29,13 @@ header{
 #navbarNav{
     flex-grow: 0;
 }
+/* HEADER */
+.content-header{
+    background-color: #eff8d1;
+}
+/* MEDIA */
 @media (width:320px){
 .navbar-toggler{
-    width: 50%;
+    width: 30%;
 }
 }
