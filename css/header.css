@@ -47,18 +47,23 @@ header{
     align-items: center;
     justify-content: center;
     background-color: #bcf500;
-    height: 100%;
 }
 .txt-header{
     color: #3a5843;
 }
 /* MEDIA */
-@media (width:320px){
+@media (width:375px){
 .navbar-toggler{
-    width: 30%;
+    width: 100px;
 }
 .content-header{
     width: 100%;
     height: 50%;
-}
-}
+}}
+/* Reglas resposive 
+1200px escritorio
+1200px para abajo laptop
+1024px tablet para abajo
+768px tablet para abajo
+480px celu 
+*/

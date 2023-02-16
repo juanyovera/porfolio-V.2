@@ -1,20 +1,28 @@
 /* About me */
 .about-me{
-    height: 100vh; 
-    background:#1b221c ;
+  height: 100vh; 
+  background:#1b221c ;
+  display: flex;
+  justify-content: space-between;
 }
-
 .img-about{
-    position: absolute;
-    right: 60px;
-    margin: 100px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.content-img{
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  width: 40%;
+}
 .content-about{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    margin-left:200px ;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30px ;
 }
 
 button {
@@ -67,7 +75,8 @@ button:active {
 .content-card{
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 100%;
+    justify-content: center;
 }
 .card-skill{
     display: flex;
@@ -86,7 +95,7 @@ box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
 .img-skill{
     width: 40px;
     height: 40px;
-
+    border-radius: 15px;
 }
 .name-skill{
   color: #f6fed8;
@@ -100,47 +109,59 @@ box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
   background-color: #1b221c;
 }
 /* MEDIA */
-@media (max-width:952px){
-    .content-about{
-      margin-left: 0;
-    }
-    .img-about{
-        display: none;
-    }
-    .text,p{
-      font-size: 13px
-  }
-  button{
-    width: 250px;
-  }
-  .skill{
-    width: 100%;
-  }
+/* CELU */
+@media (max-width:481px){
+  .content-img{
+    display: none;
+}
+.content-about{
+  margin-left: 0;
+}
+.text,p{
+  font-size: 13px
+}
+.btn-download{
+width: 250px;
+}
+.skill{
+width: 100%;
+}
 
-  .buttonDownload{
-    width: 250px;
-  }
-  .card-skill{
-    width:130px;
-    padding: 5px;
-  }
-  .title-skill{
-    font-size: 32px;
-  }
-  .h2-skill{
-    font-size: 17px;
-  }
-  .img-skill{
-    width: 20px;
-    height: 20px;
-  }
-  .content-card{
-    width: 100%;
-  }
-  .content-about{
-    width: 100%;
-  }
-  .h2-skill{
-    margin: 0 !important;
+.buttonDownload{
+width: 250px;
+}
+.card-skill{
+width:130px;
+padding: 5px;
+}
+.title-skill{
+font-size: 32px;
+}
+.h2-skill{
+font-size: 17px;
+}
+.img-skill{
+width: 20px;
+height: 20px;
+}
+.content-card{
+width: 100%;
+}
+.content-about{
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.h2-skill{
+margin: 0 !important;
+}
+.content-img{
+display: none;
+}
+}
+/* TABLE */
+@media (max-width:769px){
+  .img-about{
+    margin-top: 250px;
   }
 }
