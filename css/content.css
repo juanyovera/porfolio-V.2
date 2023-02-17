@@ -1,6 +1,5 @@
 /* About me */
 .about-me{
-  height: 100vh; 
   background:#1b221c ;
   display: flex;
   justify-content: space-between;
@@ -53,7 +52,6 @@ button:active {
 
 /* Skills */
 .skills{
-    height: 100vh;
     justify-content: center;
     display: flex;
     background-color: #eff8d1;
@@ -105,8 +103,42 @@ box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
 }
 /* Porject */
 .project{
-  height: 100vh;
+  display: flex;
   background-color: #1b221c;
+  flex-direction: column;
+}
+.card{
+  background-color: #eff8d1 !important;
+  margin-top: 10px;
+}
+.card-txt{
+  color: #3a5843;
+  font-size: 15px ;
+}
+.h5-title{
+  font-family: "Galindo", cursive;
+  font-size: 25px;
+}
+.link__ {
+  color: #eff8d1;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 6px;
+  margin: 8px;
+  background-color: #3a5843;
+}
+.link__:hover{
+  color: #497e58;
+  -webkit-box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+  -moz-box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+  box-shadow: 7px 5px 12px -1px rgba(130, 130, 130, 1);
+  border: 1px solid #497e58;
+  background-color: #eff8d1;
+  }
+.cnt-link_{
+  display:flex ;
+  flex-wrap: wrap;
+
 }
 /* MEDIA */
 /* CELU */
@@ -157,8 +189,7 @@ margin: 0 !important;
 }
 .content-img{
 display: none;
-}
-}
+}}
 /* TABLE */
 @media (max-width:769px){
   .img-about{
