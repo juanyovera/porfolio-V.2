@@ -1,5 +1,9 @@
 footer{
-    background-color: #eff8d1 ;
+    background-color: #eff8d1 !important;
+    
+}
+.footer{
+    padding-top: 20px;
 }
 #contact{
     max-width: 720px;
@@ -79,6 +83,13 @@ footer{
 }
 .whatsapp{
     background-image: url(../icon/whatsapp.svg);
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #3a5843;
+    margin-top: 15px ;
 }
 /*MEDIA */
 @media (max-width:426px){
