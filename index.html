@@ -35,16 +35,16 @@
                     <a class="nav-link " href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#about_me">About me</a>
+                    <a class="nav-link" href="#about_me">Sobre mi</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#skill">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#project">Projects</a>
+                    <a class="nav-link " href="#project">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#contact">Contact</a>
+                    <a class="nav-link " href="#contact">Contactame</a>
                   </li>
                 </ul>
               </div>
@@ -59,9 +59,8 @@
         
         <section class="about-me" id="about_me">
             <div class="content-about">
-                <h2 class=" title-about fs-1 my-5">About me</h2>
-                <p class="txt-about">Lorem ipsum, dolor sit ametiat. Minima amet in maxime, quos cumque ipsam at natus aut ullam quas iusto quasi, impedit illo assumenda ducimus repellat velit harum perferendis reiciendis odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ad! Tempore, magni autem accusamus tenetur temporibus sunt quia ut eligendi, exercitationem aspernatur harum hic! Deserunt dicta soluta cupiditate sit similique!
-                Veniam expedita ab necessitatibus perferendis possimus assumenda explicabo soluta! Ab id hic nisi cum maiores architecto praesentium. Corporis, ducimus eum praesentium deserunt accusantium consequuntur ess</p>
+                <h2 class=" title-about fs-1 my-5">Sobre mi</h2>
+                <p class="txt-about">Hola! Soy Juan. Soy programador web full stack, También soy estudiante de analisis de sistema en la Universidad de Buenos Aires, Argentina. Comence con el mundo de la programación gracias a mi hermano el cual me incentivo a aprender python </p>
                     <button class="btn-download my-3">Download my resume</button>
             </div>
             <div class="content-img">
@@ -125,14 +124,14 @@
             </article>
         </section> 
         <section class="project " id="project">
-                <h2 class="title-project text-center my-3">Projects</h2>
+                <h2 class="title-project text-center my-3">Proyectos</h2>
             <div class="container my-4">
                 <div class="card-group">
                         <div class="card mx-3 g-3">
                         <img src="./img/encontratufarmacia.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="h5-title">Encontra tu farmacia</h4>
-                            <p class="card-txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-txt">Proyecto que hice para fundación pescar.Puse en practica el trabajo en grupo y usamos tecnologias como JavaScript, CSS, HTML, GOOGLE API y SASS</p>
                             <div class="cnt-link_ "> <a class="link__ " href="https://github.com/Marcos-mi/Encontra-tu-farmacia" target="_blank"><i class="fa-brands fa-github"></i>Repositorio</a> <a class="link__" href="https://encontratufarmacia.site/" target="_blank"><i class="fa-solid fa-eye"></i>View</a></div>
                         </div>
                         </div>
@@ -140,7 +139,7 @@
                         <img src="./img/color-random.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="h5-title">Paleta de colores</h4>
-                            <p class="card-txt">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-txt">Mini proyecto el cual utilice JavaScript y CSS.</p>
                              <div class="cnt-link_ py-5"> <a class="link__"  href="https://github.com/juanyovera/color-random" target="_blank"><i class="fa-brands fa-github"></i>Repositorio</a> <a class="link__" href="https://ppaletadecolores.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i>View</a></div>
                         </div>
                         </div>
@@ -148,7 +147,7 @@
                         <img src="./img/traductor.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h4 class="h5-title">Traductor App</h4>
-                            <p class="card-txt">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-txt">Mini Proyecto el que consumi de una API de lenguajes, además de usar JavaScript.</p>
                              <div class="cnt-link_"> <a class="link__"  href="https://github.com/juanyovera/traductor-app" target="_blank"><i class="fa-brands fa-github"></i>Repositorio</a> <a class="link__" href="https://traductor-app.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i>View</a></div>
                         </div>
                         </div>
@@ -157,56 +156,58 @@
         </section> 
    </main> 
 
-   <footer id="contact">
-    <section class="py-5 contact">
-        <form action="" id="contact">
-            <h2 class="title-contact">Contactame</h2>
-            <label for="contact_name">Ingresa tu Nombre </label>
-            <input 
-                id="contact_name"
-                name="contact_name"
-                type="text"
-                maxlength="50"
-                pattern="[A-Za-z ñÑ]{2,50}"
-                required>
-            <label for="contact_phone">Ingrese su Telefono</label>
-            <input 
-                id="contact_phone"
-                name="contact_phone"
-                type="tel"
-                pattern="[0-9]{6,18}|[\(]\d{2,8}[\)]\d{3,6}[\-]\d{3,6}"
-                required>
-            <label for="contact_email">Ingrese su Correo</label>
-            <input
-                id="contact_email" 
-                name="contact_email"
-                type="email"
-                minlength="8"
-                required>
-            <label for="contact_consult">Enviame tu mensaje</label>
-            <textarea 
-                id="contact_consult"
-                name="contact_consult"
-                minlength="20"
-                maxlength="200"
-                required></textarea>
-            <button class="btn">Enviar</button>
-            <div class="social">
-                <h2 class="title-social py-4">¡Contactame!</h2>
-                <a class="whatsapp" 
-                    href="https://wa.me/54901170142445" 
-                    target="_blank" 
-                    title="Contactame por Whatsapp">
-                </a>
-                <a class="linkedin" 
-                    href="https://www.linkedin.com/in/juan-yovera/" 
-                    target="_blank" 
-                    title="Mira mi linkedin">
-                </a>
-            </div>
-        </form>
-       
-   </section> 
+   <footer class="footer">
+        <section class="contact" id="contact">
+            <form action="" id="contact">
+                <h2 class="title-contact">Contactame</h2>
+                <label for="contact_name">Ingresa tu Nombre </label>
+                <input 
+                    id="contact_name"
+                    name="contact_name"
+                    type="text"
+                    maxlength="50"
+                    pattern="[A-Za-z ñÑ]{2,50}"
+                    required>
+                <label for="contact_phone">Ingrese su Telefono</label>
+                <input 
+                    id="contact_phone"
+                    name="contact_phone"
+                    type="tel"
+                    pattern="[0-9]{6,18}|[\(]\d{2,8}[\)]\d{3,6}[\-]\d{3,6}"
+                    required>
+                <label for="contact_email">Ingrese su Correo</label>
+                <input
+                    id="contact_email" 
+                    name="contact_email"
+                    type="email"
+                    minlength="8"
+                    required>
+                <label for="contact_consult">Enviame tu mensaje</label>
+                <textarea 
+                    id="contact_consult"
+                    name="contact_consult"
+                    minlength="20"
+                    maxlength="200"
+                    required></textarea>
+                <button class="btn">Enviar</button>
+                <div class="social">
+                    <h2 class="title-social py-4">¡Contactame!</h2>
+                    <a class="whatsapp" 
+                        href="https://wa.link/h4rr8d" 
+                        target="_blank" 
+                        title="Contactame por Whatsapp">
+                    </a>
+                    <a class="linkedin" 
+                        href="https://www.linkedin.com/in/juan-yovera/" 
+                        target="_blank" 
+                        title="Mira mi linkedin">
+                    </a>
+                </div>
+            </form>
+        </section>
+        <div class="py- copyright">
+            <p>© Derechos reservados a Juan Yovera | 2022</p>
+        </div>
    </footer>
    <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
